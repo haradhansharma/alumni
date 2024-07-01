@@ -1,0 +1,57 @@
+# Ignore Python bytecode
+__pycache__
+*.pyc
+essential_commands.txt
+# Ignore macOS file
+.DS_Store
+# Ignore the acmd.py script
+acmd.py
+# Ignore backup files
+backups
+# Ignore git files
+.git
+.gitignore
+
+# Ignore local environments
+env
+venv
+ENV
+env.bak
+venv.bak
+.venv
+
+# Ignore log files
+*.log
+
+# Ignore local settings
+.local
+.env
+
+# Ignore IDE files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignore test coverage
+.coverage
+coverage/
+.coverage.*
+
+# Ignore build files
+build/
+dist/
+downloads/
+*.egg-info/
+.installed.cfg
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Ignore unnecessary static and media files
+static/
+media/
+
+# Ignore pytest cache
+.pytest_cache/
